@@ -1,0 +1,49 @@
+uuid: 6e0e42ab-0232-43f3-a613-908edf74eec8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.publicacion.field_descripcion
+    - field.field.node.publicacion.field_imagen
+    - field.field.node.publicacion.field_titulo
+    - node.type.publicacion
+  module:
+    - image
+    - text
+    - user
+id: node.publicacion.default
+targetEntityType: node
+bundle: publicacion
+mode: default
+content:
+  field_descripcion:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_imagen:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_titulo:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden: {  }

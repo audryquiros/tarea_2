@@ -1,0 +1,57 @@
+uuid: 8ddbbc0d-af79-4ca4-a336-38c79643d0fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.publicacion.field_descripcion
+    - field.field.node.publicacion.field_imagen
+    - field.field.node.publicacion.field_titulo
+    - image.style.thumbnail
+    - node.type.publicacion
+  module:
+    - image
+    - text
+id: node.publicacion.default
+targetEntityType: node
+bundle: publicacion
+mode: default
+content:
+  field_descripcion:
+    type: text_textarea
+    weight: 124
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_imagen:
+    type: image_image
+    weight: 122
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_titulo:
+    type: text_textfield
+    weight: 123
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

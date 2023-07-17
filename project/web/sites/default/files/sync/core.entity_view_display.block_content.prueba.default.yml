@@ -1,0 +1,44 @@
+uuid: d54e991f-4e00-4c45-8079-e639d8a48a9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.prueba
+    - field.field.block_content.prueba.body
+    - field.field.block_content.prueba.field_links
+    - field.field.block_content.prueba.field_title
+  module:
+    - link
+    - text
+id: block_content.prueba.default
+targetEntityType: block_content
+bundle: prueba
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_links:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

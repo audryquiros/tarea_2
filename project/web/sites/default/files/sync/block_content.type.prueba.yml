@@ -1,0 +1,8 @@
+uuid: d5217254-a3df-4c22-94bc-9b222517ae52
+langcode: en
+status: true
+dependencies: {  }
+id: prueba
+label: 'Feature recipes'
+revision: 0
+description: ''

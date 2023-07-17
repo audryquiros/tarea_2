@@ -1,0 +1,26 @@
+uuid: 48f318d3-d16a-476c-a6fd-e3adc22909e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.publicacion.field_descripcion
+    - field.field.node.publicacion.field_imagen
+    - field.field.node.publicacion.field_titulo
+    - node.type.publicacion
+  module:
+    - user
+id: node.publicacion.teaser
+targetEntityType: node
+bundle: publicacion
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_descripcion: true
+  field_imagen: true
+  field_titulo: true

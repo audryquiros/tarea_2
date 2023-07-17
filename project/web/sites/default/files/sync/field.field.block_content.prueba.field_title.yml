@@ -1,0 +1,22 @@
+uuid: 03c32b3c-b036-4927-8ab7-345ddb130408
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.prueba
+    - field.storage.block_content.field_title
+  module:
+    - text
+id: block_content.prueba.field_title
+field_name: field_title
+entity_type: block_content
+bundle: prueba
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

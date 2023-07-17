@@ -1,0 +1,22 @@
+uuid: e307ccb2-29d2-45f0-a6bf-2f946c1baabd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion
+    - node.type.publicacion
+  module:
+    - text
+id: node.publicacion.field_descripcion
+field_name: field_descripcion
+entity_type: node
+bundle: publicacion
+label: Descripción
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long
