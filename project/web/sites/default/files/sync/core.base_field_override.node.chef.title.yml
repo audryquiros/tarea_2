@@ -1,14 +1,14 @@
-uuid: 9d7002c6-daf4-402d-9463-ba7352110fd0
+uuid: e2048457-17e0-4ef9-acab-c228de8ff5a2
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.publicacion
-id: node.publicacion.title
+    - node.type.chef
+id: node.chef.title
 field_name: title
 entity_type: node
-bundle: publicacion
-label: Recipes
+bundle: chef
+label: Chef
 description: ''
 required: true
 translatable: true

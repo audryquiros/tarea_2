@@ -1,0 +1,22 @@
+uuid: 5640292a-e973-4e72-8700-92f9fb2c3e55
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_asado
+    - taxonomy.vocabulary.format
+  module:
+    - text
+id: taxonomy_term.format.field_asado
+field_name: field_asado
+entity_type: taxonomy_term
+bundle: format
+label: Asado
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

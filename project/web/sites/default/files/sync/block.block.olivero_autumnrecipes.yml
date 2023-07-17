@@ -1,0 +1,34 @@
+uuid: 2f186389-3bc9-4fbc-8092-1b1890d84a8e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:prueba:5f5ca116-9449-4b58-8e9b-9a4afc9d1be9'
+  module:
+    - block_content
+    - node
+  theme:
+    - olivero
+id: olivero_autumnrecipes
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:5f5ca116-9449-4b58-8e9b-9a4afc9d1be9'
+settings:
+  id: 'block_content:5f5ca116-9449-4b58-8e9b-9a4afc9d1be9'
+  label: 'Autumn recipes'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      chef: chef
+      publicacion: publicacion

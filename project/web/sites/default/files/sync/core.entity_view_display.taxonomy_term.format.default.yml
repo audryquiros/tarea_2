@@ -1,0 +1,37 @@
+uuid: c4698b3e-a25c-491b-af36-464840ac970d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.format.field_asado
+    - field.field.taxonomy_term.format.field_horneado
+    - taxonomy.vocabulary.format
+  module:
+    - text
+id: taxonomy_term.format.default
+targetEntityType: taxonomy_term
+bundle: format
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_asado:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_horneado:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

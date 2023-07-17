@@ -1,0 +1,22 @@
+uuid: c9531064-5fd1-4f40-b5b7-a61387abd93e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_name
+    - node.type.chef
+  module:
+    - text
+id: node.chef.field_name
+field_name: field_name
+entity_type: node
+bundle: chef
+label: Name
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

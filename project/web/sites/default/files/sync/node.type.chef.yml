@@ -1,4 +1,4 @@
-uuid: 1d1ee326-c615-4266-9bff-dac448525268
+uuid: 13c08b6a-90d0-433f-a135-9926cfa471bc
 langcode: en
 status: true
 dependencies:
@@ -9,8 +9,8 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: Recipes
-type: publicacion
+name: Chef
+type: chef
 description: ''
 help: ''
 new_revision: true

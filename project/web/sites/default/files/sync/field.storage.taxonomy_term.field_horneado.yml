@@ -1,0 +1,20 @@
+uuid: c0b79b64-cf21-42b8-8dfc-1886bb92cb20
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+    - text
+id: taxonomy_term.field_horneado
+field_name: field_horneado
+entity_type: taxonomy_term
+type: text
+settings:
+  max_length: 15
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

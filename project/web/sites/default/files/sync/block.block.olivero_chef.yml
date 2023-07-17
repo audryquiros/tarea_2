@@ -1,0 +1,34 @@
+uuid: 37411aad-e2a7-4925-ad92-fb1f78553a44
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c512da0b-e504-49a7-be82-291dadf50d8e'
+  module:
+    - block_content
+    - node
+  theme:
+    - olivero
+id: olivero_chef
+theme: olivero
+region: content_below
+weight: 0
+provider: null
+plugin: 'block_content:c512da0b-e504-49a7-be82-291dadf50d8e'
+settings:
+  id: 'block_content:c512da0b-e504-49a7-be82-291dadf50d8e'
+  label: Chef
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      chef: chef
+      publicacion: publicacion

@@ -1,0 +1,34 @@
+uuid: 84325c11-c364-448c-b576-fbe7c7895133
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:prueba:562a643e-231b-402b-808c-7717ac6ded58'
+  module:
+    - block_content
+    - node
+  theme:
+    - olivero
+id: olivero_summerrecipes
+theme: olivero
+region: content_below
+weight: 0
+provider: null
+plugin: 'block_content:562a643e-231b-402b-808c-7717ac6ded58'
+settings:
+  id: 'block_content:562a643e-231b-402b-808c-7717ac6ded58'
+  label: 'Summer recipes'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      chef: chef
+      publicacion: publicacion

@@ -1,0 +1,36 @@
+uuid: ec463517-3eac-4f54-b494-b17a3ee5b413
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.chef.field_about
+    - field.field.node.chef.field_name
+    - node.type.chef
+  module:
+    - text
+    - user
+id: node.chef.default
+targetEntityType: node
+bundle: chef
+mode: default
+content:
+  field_about:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_name:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

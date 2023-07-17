@@ -1,0 +1,29 @@
+uuid: fce7f728-7a75-4ddb-b8dd-ef1835a6ebb2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.prueba
+    - field.storage.block_content.field_f
+    - node.type.publicacion
+id: block_content.prueba.field_f
+field_name: field_f
+entity_type: block_content
+bundle: prueba
+label: 'Feature recipes'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      publicacion: publicacion
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

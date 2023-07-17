@@ -1,0 +1,20 @@
+uuid: 3d8edc6b-0718-48e3-a1ba-6d075522e0cf
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+    - text
+id: taxonomy_term.field_asado
+field_name: field_asado
+entity_type: taxonomy_term
+type: text
+settings:
+  max_length: 15
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
